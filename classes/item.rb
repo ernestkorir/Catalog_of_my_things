@@ -1,9 +1,9 @@
 require 'date'
 
 class Item
-  att_reader :id, :archived
+    attr_reader :id, :archived
 
-  att_accessor :genre, :author, :source, :label, :publish_date
+  attr_accessor :genre, :author, :source, :label, :publish_date
 
   def initialize(genre, author, source, label, publish_date)
     @id = generate_id
@@ -33,5 +33,6 @@ class Item
     current_year = Date.today.year
     @publish_date.year
     current_year - published_year
+    Date.today.year - @publish_date.year
   end
 end

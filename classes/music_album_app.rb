@@ -1,7 +1,7 @@
-require_relative './files_handler'
-require_relative './genre_app'
-require_relative './music'
-require_relative './label'
+require_relative 'files_handler'
+require_relative 'genre_app'
+require_relative 'music'
+require_relative 'label'
 require_relative '../modules/author_logic'
 require_relative '../modules/label_logic'
 

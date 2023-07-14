@@ -1,11 +1,11 @@
 require 'json'
 require_relative 'modules/books.module'
 require_relative 'modules/data.module'
-require_relative './modules/game_logic'
-require_relative './modules/author_logic'
-require_relative './classes/music_album_app'
-require_relative './classes/files_handler'
-require_relative './classes/genre_app'
+require_relative 'modules/game_logic'
+require_relative 'modules/author_logic'
+require_relative 'classes/music_album_app'
+require_relative 'classes/files_handler'
+require_relative 'classes/genre_app'
 class App
   attr_accessor :option, :all_books, :all_labels, :all_authors, :all_genres
 

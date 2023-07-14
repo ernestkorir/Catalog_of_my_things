@@ -1,5 +1,5 @@
-require_relative './files_handler'
-require_relative './genre'
+require_relative 'files_handler'
+require_relative 'genre'
 
 class GenreApp
   @genres = []

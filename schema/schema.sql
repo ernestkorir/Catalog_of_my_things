@@ -90,3 +90,14 @@ CREATE TABLE "MusicAlbum" (
     FOREIGN KEY ("genre_id")
       REFERENCES "Genre"("id")
 );
+
+
+CREATE INDEX book_genre_index ON Book(genre_id);
+CREATE INDEX book_label_index ON Book(label_id);
+CREATE INDEX book_author_index ON Book(author_id);
+CREATE INDEX game_genre_index ON Game(genre_id);
+CREATE INDEX game_label_index ON Game(label_id);
+CREATE INDEX game_author_index ON Game(author_id);
+CREATE INDEX music_genre_index ON MusicAlbum(genre_id);
+CREATE INDEX music_label_index ON MusicAlbum(label_id);
+CREATE INDEX music_author_index ON MusicAlbum(author_id);

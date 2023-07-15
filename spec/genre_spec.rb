@@ -1,4 +1,3 @@
-require 'rspec'
 require_relative '../classes/music'
 require_relative '../classes/genre'
 require_relative '../classes/label'
